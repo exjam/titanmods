@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Interface">
+      <UniqueIdentifier>{43c172f6-afb1-48d4-934d-6055b4fdbadb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interface\Misc">
+      <UniqueIdentifier>{a693523b-6cab-4135-a215-82038629f4f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interface\Dlg Mods">
+      <UniqueIdentifier>{fe137137-f123-4849-89ab-7bf2f4df8628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interface\Dlg New">
+      <UniqueIdentifier>{26007dbc-a489-4a5c-b977-75af050caef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interface\Dlg New\SubClass">
+      <UniqueIdentifier>{0d0f2d51-edf3-4264-b95f-4492751d3ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hax">
+      <UniqueIdentifier>{ab46870e-37de-45b0-ad8a-0f9b0377d07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Proc">
+      <UniqueIdentifier>{51964ae2-a766-4bfa-bc39-54d1344a08ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Proc\Network">
+      <UniqueIdentifier>{1a970ad2-423c-426d-9faa-01f112787f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fixes">
+      <UniqueIdentifier>{1791c4a1-62ad-4ddb-a0c7-8c0077305bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{2c02c107-762d-4296-8581-258b547247f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Shared">
+      <UniqueIdentifier>{4e083e8d-bfab-4ed0-98ce-f0e32180601b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dlg">
+      <UniqueIdentifier>{374cc1fc-861a-4329-8bf1-f7e5fdf317e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dlg\PvP">
+      <UniqueIdentifier>{88ebb516-39aa-4a3f-b9de-88ed4b41b3e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStates">
+      <UniqueIdentifier>{6dc06a43-8bae-43ee-9a88-3044007647b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Dlg\Duel">
+      <UniqueIdentifier>{58e71407-b142-4cbb-88a3-9fd09d41b040}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeDialogs.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestIcon.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffTimers.cpp">
+      <Filter>Source Files\Interface\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomShop.cpp">
+      <Filter>Source Files\Interface\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPvP.cpp">
+      <Filter>Source Files\Interface\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Hotkeys.cpp">
+      <Filter>Source Files\Interface\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCharacter.cpp">
+      <Filter>Source Files\Interface\Dlg Mods</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgChat.cpp">
+      <Filter>Source Files\Interface\Dlg Mods</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgClan.cpp">
+      <Filter>Source Files\Interface\Dlg Mods</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCommunity.cpp">
+      <Filter>Source Files\Interface\Dlg Mods</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgMinimap.cpp">
+      <Filter>Source Files\Interface\Dlg Mods</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOption.cpp">
+      <Filter>Source Files\Interface\Dlg Mods</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgPartyOpt.cpp">
+      <Filter>Source Files\Interface\Dlg Mods</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAchievements.cpp">
+      <Filter>Source Files\Interface\Dlg New</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAppearance.cpp">
+      <Filter>Source Files\Interface\Dlg New</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgDuelInvite.cpp">
+      <Filter>Source Files\Interface\Dlg New</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgPvP.cpp">
+      <Filter>Source Files\Interface\Dlg New</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgPvPInstance.cpp">
+      <Filter>Source Files\Interface\Dlg New</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgQuickbar2.cpp">
+      <Filter>Source Files\Interface\Dlg New</Filter>
+    </ClCompile>
+    <ClCompile Include="ClanContribution.cpp">
+      <Filter>Source Files\Interface\Dlg New\SubClass</Filter>
+    </ClCompile>
+    <ClCompile Include="CTListItemParty.cpp">
+      <Filter>Source Files\Interface\Dlg New\SubClass</Filter>
+    </ClCompile>
+    <ClCompile Include="CTListItemPvPGame.cpp">
+      <Filter>Source Files\Interface\Dlg New\SubClass</Filter>
+    </ClCompile>
+    <ClCompile Include="CTListItemPvPInstance.cpp">
+      <Filter>Source Files\Interface\Dlg New\SubClass</Filter>
+    </ClCompile>
+    <ClCompile Include="CTQuickBarDrag.cpp">
+      <Filter>Source Files\Interface\Dlg New\SubClass</Filter>
+    </ClCompile>
+    <ClCompile Include="CrashHandler.cpp">
+      <Filter>Source Files\Hax</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLoop.cpp">
+      <Filter>Source Files\Proc</Filter>
+    </ClCompile>
+    <ClCompile Include="IgnoreList.cpp">
+      <Filter>Source Files\Proc</Filter>
+    </ClCompile>
+    <ClCompile Include="NameColours.cpp">
+      <Filter>Source Files\Proc</Filter>
+    </ClCompile>
+    <ClCompile Include="OnKill.cpp">
+      <Filter>Source Files\Proc</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillCommand.cpp">
+      <Filter>Source Files\Proc</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Source Files\Proc\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="RecvPACKET.cpp">
+      <Filter>Source Files\Proc\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="SendPACKET.cpp">
+      <Filter>Source Files\Proc\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_ConnectionIP.cpp">
+      <Filter>Source Files\Fixes</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_EXP.cpp">
+      <Filter>Source Files\Fixes</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_GaugeUpdate.cpp">
+      <Filter>Source Files\Fixes</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_ItemDescLength.cpp">
+      <Filter>Source Files\Fixes</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_MobNameLength.cpp">
+      <Filter>Source Files\Fixes</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_MP.cpp">
+      <Filter>Source Files\Fixes</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_NoDriveFlag.cpp">
+      <Filter>Source Files\Fixes</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_SummonHP.cpp">
+      <Filter>Source Files\Fixes</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_TriggerDetect.cpp">
+      <Filter>Source Files\Fixes</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallFixes.cpp">
+      <Filter>Source Files\Fixes</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadConfig.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveConfig.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSelectServer.cpp">
+      <Filter>Source Files\Interface\Dlg Mods</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateMain.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLogin.cpp">
+      <Filter>Source Files\Interface\Dlg Mods</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_CraftSkills.cpp">
+      <Filter>Source Files\Fixes</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_AvatarStore.cpp">
+      <Filter>Source Files\Fixes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DragCommand.h">
+      <Filter>Source Files\Interface\Dlg New\SubClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Source Files\Proc\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="RecvPACKET.h">
+      <Filter>Source Files\Proc\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PartyList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\AchievementData.hpp">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\AchievementList.hpp">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Code.hpp">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Console.hpp">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\DataTYPE.hpp">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\RunOnLoad.hpp">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Achievements.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ClanMember.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="DuelInvite.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillBar2.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CTAcceptGiveUP.hpp">
+      <Filter>Header Files\Dlg\PvP</Filter>
+    </ClInclude>
+    <ClInclude Include="CTListItemPvPGame.hpp">
+      <Filter>Header Files\Dlg\PvP</Filter>
+    </ClInclude>
+    <ClInclude Include="CTListItemPvPInstance.hpp">
+      <Filter>Header Files\Dlg\PvP</Filter>
+    </ClInclude>
+    <ClInclude Include="PvP.h">
+      <Filter>Header Files\Dlg\PvP</Filter>
+    </ClInclude>
+    <ClInclude Include="CTReplyDuel.h">
+      <Filter>Header Files\Dlg\Duel</Filter>
+    </ClInclude>
+    <ClInclude Include="Appearance.h">
+      <Filter>Header Files\Dlg</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release - Test|Win32">
+      <Configuration>Release - Test</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>Client Extensions</ProjectName>
+    <ProjectGuid>{F2421168-C0B6-48A2-BB77-9661B076591B}</ProjectGuid>
+    <RootNamespace>ClientExtensions</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - Test|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release - Test|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release - Test|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release - Test|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release - Test|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release - Test|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release - Test|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release - Test|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\;..\tinyxml++\;$(DXSDK_DIR)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;CLIENTEXTENSIONS_EXPORTS;VER_CLIENT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <CallingConvention>Cdecl</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>trose.lib;ticpp.lib;triggervfs.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>trose.lib;ticpp.lib;znzin.lib;tgamectrl_r.lib;triggervfs.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)TitanProtect.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\Release\;..\tinyxml++\lib.vc10;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release - Test|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>..\;..\tinyxml++\;$(DXSDK_DIR)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;CLIENTEXTENSIONS_EXPORTS;VER_CLIENT;TEST_SERVER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <CallingConvention>Cdecl</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>trose.lib;ticpp.lib;znzin.lib;tgamectrl_r.lib;triggervfs.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)TitanProtect.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\Release\;..\tinyxml++\lib.vc10;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="DlgLogin.cpp" />
+    <ClCompile Include="DlgSelectServer.cpp" />
+    <ClCompile Include="Fix_AvatarStore.cpp" />
+    <ClCompile Include="Fix_CraftSkills.cpp" />
+    <ClCompile Include="GameStateMain.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="MakeDialogs.cpp" />
+    <ClCompile Include="QuestIcon.cpp" />
+    <ClCompile Include="BuffTimers.cpp" />
+    <ClCompile Include="CustomShop.cpp" />
+    <ClCompile Include="DataPvP.cpp" />
+    <ClCompile Include="Hotkeys.cpp" />
+    <ClCompile Include="DlgCharacter.cpp" />
+    <ClCompile Include="DlgChat.cpp" />
+    <ClCompile Include="DlgClan.cpp" />
+    <ClCompile Include="DlgCommunity.cpp" />
+    <ClCompile Include="DlgMinimap.cpp" />
+    <ClCompile Include="DlgOption.cpp" />
+    <ClCompile Include="DlgPartyOpt.cpp" />
+    <ClCompile Include="DlgAchievements.cpp" />
+    <ClCompile Include="DlgAppearance.cpp" />
+    <ClCompile Include="DlgDuelInvite.cpp" />
+    <ClCompile Include="DlgPvP.cpp" />
+    <ClCompile Include="DlgPvPInstance.cpp" />
+    <ClCompile Include="DlgQuickbar2.cpp" />
+    <ClCompile Include="ClanContribution.cpp" />
+    <ClCompile Include="CTListItemParty.cpp" />
+    <ClCompile Include="CTListItemPvPGame.cpp" />
+    <ClCompile Include="CTListItemPvPInstance.cpp" />
+    <ClCompile Include="CTQuickBarDrag.cpp" />
+    <ClCompile Include="CrashHandler.cpp" />
+    <ClCompile Include="GameLoop.cpp" />
+    <ClCompile Include="IgnoreList.cpp" />
+    <ClCompile Include="NameColours.cpp" />
+    <ClCompile Include="OnKill.cpp" />
+    <ClCompile Include="SkillCommand.cpp" />
+    <ClCompile Include="Network.cpp" />
+    <ClCompile Include="RecvPACKET.cpp" />
+    <ClCompile Include="SendPACKET.cpp" />
+    <ClCompile Include="Fix_ConnectionIP.cpp" />
+    <ClCompile Include="Fix_EXP.cpp" />
+    <ClCompile Include="Fix_GaugeUpdate.cpp" />
+    <ClCompile Include="Fix_ItemDescLength.cpp" />
+    <ClCompile Include="Fix_MobNameLength.cpp" />
+    <ClCompile Include="Fix_MP.cpp" />
+    <ClCompile Include="Fix_NoDriveFlag.cpp" />
+    <ClCompile Include="Fix_SummonHP.cpp" />
+    <ClCompile Include="Fix_TriggerDetect.cpp" />
+    <ClCompile Include="SmallFixes.cpp" />
+    <ClCompile Include="LoadConfig.cpp" />
+    <ClCompile Include="SaveConfig.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Appearance.h" />
+    <ClInclude Include="CTReplyDuel.h" />
+    <ClInclude Include="DragCommand.h" />
+    <ClInclude Include="Network.h" />
+    <ClInclude Include="RecvPACKET.h" />
+    <ClInclude Include="Controls.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="PartyList.h" />
+    <ClInclude Include="Timer.hpp" />
+    <ClInclude Include="..\Shared\AchievementData.hpp" />
+    <ClInclude Include="..\Shared\AchievementList.hpp" />
+    <ClInclude Include="..\Shared\Code.hpp" />
+    <ClInclude Include="..\Shared\Console.hpp" />
+    <ClInclude Include="..\Shared\DataTYPE.hpp" />
+    <ClInclude Include="..\Shared\RunOnLoad.hpp" />
+    <ClInclude Include="Achievements.h" />
+    <ClInclude Include="ClanMember.h" />
+    <ClInclude Include="DuelInvite.h" />
+    <ClInclude Include="SkillBar2.h" />
+    <ClInclude Include="CTAcceptGiveUP.hpp" />
+    <ClInclude Include="CTListItemPvPGame.hpp" />
+    <ClInclude Include="CTListItemPvPInstance.hpp" />
+    <ClInclude Include="PvP.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TGameCtrl\TGameCtrl.vcxproj">
+      <Project>{67439b09-96de-4928-84e3-7769e77b67aa}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\TriggerVFS\TriggerVFS.vcxproj">
+      <Project>{9c968714-5786-44df-9836-f246b2eacc36}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\TRose\TRose.vcxproj">
+      <Project>{ef5bc9e6-194a-49ed-823f-5dff9342f60f}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Objects-DONE">
+      <UniqueIdentifier>{3861edba-2d25-4c78-8b6b-c28c77327469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Packets-DONE">
+      <UniqueIdentifier>{8a7b4067-e9cd-4fe1-9254-40e45211760b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SQL-DONE">
+      <UniqueIdentifier>{d17ae4a7-11a3-430a-9299-7cc0fd02717d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Other-DONE">
+      <UniqueIdentifier>{49d82c98-534b-441a-a7fe-65dad3cc9c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\User-DONE">
+      <UniqueIdentifier>{68ae8b72-8362-4d41-b6d6-8740ccd9b29d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Zone-DONE">
+      <UniqueIdentifier>{ec89ecb0-caee-4b3c-9992-a733b8e2d21f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Threads-DONE">
+      <UniqueIdentifier>{398d1e14-026c-4cce-80ee-a2c8b8f26d84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Lists">
+      <UniqueIdentifier>{9b28afab-6c95-401c-8692-47d8e1a6ce4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\User-DONE">
+      <UniqueIdentifier>{f1bbc86e-4f78-419d-947c-a462d0b4c580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Zone-DONE">
+      <UniqueIdentifier>{5ff47bb7-bb97-450e-83a2-995fa8cc3ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Packets-DONE">
+      <UniqueIdentifier>{669c5ab3-b5b2-4e7e-89c6-4c442ede72e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SQL-DONE">
+      <UniqueIdentifier>{5b40ec55-aa81-4d6f-8cf3-a1cc9f58c5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects-DONE">
+      <UniqueIdentifier>{7ecb7d18-d532-49e8-b93a-c44599497dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WeirdData-DONE">
+      <UniqueIdentifier>{4d964b53-c64d-402a-9c74-554476468629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Clan">
+      <UniqueIdentifier>{85d63da6-6e34-4058-8d4e-aa8709fc7405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player data">
+      <UniqueIdentifier>{5d2b0c88-abb2-46c4-9d1e-1279e69c2f89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Threads-DONE">
+      <UniqueIdentifier>{ee2e8275-ab54-49e6-85e3-9fe2bf8ece36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CObjEVENT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuestDATA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CStrVAR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tagBaseItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAI_OBJ.cpp">
+      <Filter>Source Files\Objects-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameOBJ.cpp">
+      <Filter>Source Files\Objects-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjAI.cpp">
+      <Filter>Source Files\Objects-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjAVT.cpp">
+      <Filter>Source Files\Objects-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjCHAR.cpp">
+      <Filter>Source Files\Objects-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjITEM.cpp">
+      <Filter>Source Files\Objects-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjMNG.cpp">
+      <Filter>Source Files\Objects-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjMOB.cpp">
+      <Filter>Source Files\Objects-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjNPC.cpp">
+      <Filter>Source Files\Objects-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjSUMMON.cpp">
+      <Filter>Source Files\Objects-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjTARGET.cpp">
+      <Filter>Source Files\Objects-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjVAR.cpp">
+      <Filter>Source Files\Objects-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CIOCP.cpp">
+      <Filter>Source Files\Packets-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CIPv4Addr.cpp">
+      <Filter>Source Files\Packets-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="classPACKET.cpp">
+      <Filter>Source Files\Packets-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="iocpSOCKET.cpp">
+      <Filter>Source Files\Packets-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPSocketSERVER.cpp">
+      <Filter>Source Files\Packets-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="classODBC.cpp">
+      <Filter>Source Files\SQL-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="classSQL.cpp">
+      <Filter>Source Files\SQL-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CClan.cpp">
+      <Filter>Source Files\Other-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CCriticalSection.cpp">
+      <Filter>Source Files\Other-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CDXHPC.cpp">
+      <Filter>Source Files\Other-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CIndexARRAY.cpp">
+      <Filter>Source Files\Other-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CLIB_GameSRV.cpp">
+      <Filter>Source Files\Other-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CSyncIdxARRAY.cpp">
+      <Filter>Source Files\Other-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CWorldVAR.cpp">
+      <Filter>Source Files\Other-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Source Files\Other-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="STB.cpp">
+      <Filter>Source Files\Other-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CIngSTATUS.cpp">
+      <Filter>Source Files\User-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CInventory.cpp">
+      <Filter>Source Files\User-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="classUSER.cpp">
+      <Filter>Source Files\User-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CParty.cpp">
+      <Filter>Source Files\User-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CQUEST.cpp">
+      <Filter>Source Files\User-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CUserDATA.cpp">
+      <Filter>Source Files\User-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CUserList.cpp">
+      <Filter>Source Files\User-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CEconomy.cpp">
+      <Filter>Source Files\Zone-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CRegenPOINT.cpp">
+      <Filter>Source Files\Zone-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CZoneFILE.cpp">
+      <Filter>Source Files\Zone-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CZoneLIST.cpp">
+      <Filter>Source Files\Zone-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CZoneTHREAD.cpp">
+      <Filter>Source Files\Zone-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="classTHREAD.cpp">
+      <Filter>Source Files\Threads-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CSqlTHREAD.cpp">
+      <Filter>Source Files\Threads-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CThreadGUILD.cpp">
+      <Filter>Source Files\Threads-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="CThreadLOG.cpp">
+      <Filter>Source Files\Threads-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="GS_CThreadLOG.cpp">
+      <Filter>Source Files\Threads-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="GS_CThreadMALL.cpp">
+      <Filter>Source Files\Threads-DONE</Filter>
+    </ClCompile>
+    <ClCompile Include="GS_CThreadSQL.cpp">
+      <Filter>Source Files\Threads-DONE</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CObjEVENT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuestDATA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SHO_GS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tagStructs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDataPOOL.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="CDLList.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="CIndexARRAY.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="classDLLIST.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="classHASH.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="classListBLOCK.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="classSLLIST.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="classSLLNODE.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="CSLList.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="CSyncIdxARRAY.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="classUSER.h">
+      <Filter>Header Files\User-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserDATA.h">
+      <Filter>Header Files\User-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserLIST.h">
+      <Filter>Header Files\User-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CRegenPOINT.h">
+      <Filter>Header Files\Zone-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CZoneFILE.h">
+      <Filter>Header Files\Zone-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CZoneLIST.h">
+      <Filter>Header Files\Zone-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CZoneSECTOR.h">
+      <Filter>Header Files\Zone-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CZoneTHREAD.h">
+      <Filter>Header Files\Zone-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CIOCP.h">
+      <Filter>Header Files\Packets-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CIPv4Addr.h">
+      <Filter>Header Files\Packets-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="classPACKET.h">
+      <Filter>Header Files\Packets-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CPacket.h">
+      <Filter>Header Files\Packets-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="iocpSOCKET.h">
+      <Filter>Header Files\Packets-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPSocketSERVER.h">
+      <Filter>Header Files\Packets-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="classODBC.h">
+      <Filter>Header Files\SQL-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="classSQL.h">
+      <Filter>Header Files\SQL-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CAI_OBJ.h">
+      <Filter>Header Files\Objects-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameOBJ.h">
+      <Filter>Header Files\Objects-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjAI.h">
+      <Filter>Header Files\Objects-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjAVT.h">
+      <Filter>Header Files\Objects-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjCHAR.h">
+      <Filter>Header Files\Objects-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjITEM.h">
+      <Filter>Header Files\Objects-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjMNG.h">
+      <Filter>Header Files\Objects-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjMOB.h">
+      <Filter>Header Files\Objects-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjNPC.h">
+      <Filter>Header Files\Objects-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjSUMMON.h">
+      <Filter>Header Files\Objects-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjTarget.h">
+      <Filter>Header Files\Objects-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjVAR.h">
+      <Filter>Header Files\Objects-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CCriticalSection.h">
+      <Filter>Header Files\WeirdData-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CDXHPC.h">
+      <Filter>Header Files\WeirdData-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CEconomy.h">
+      <Filter>Header Files\WeirdData-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="classEVENT.h">
+      <Filter>Header Files\WeirdData-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CLIB_GameSRV.h">
+      <Filter>Header Files\WeirdData-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorldVAR.h">
+      <Filter>Header Files\WeirdData-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="STB.h">
+      <Filter>Header Files\WeirdData-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CClan.h">
+      <Filter>Header Files\Clan</Filter>
+    </ClInclude>
+    <ClInclude Include="CThreadGUILD.h">
+      <Filter>Header Files\Clan</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharDATA.h">
+      <Filter>Header Files\Player data</Filter>
+    </ClInclude>
+    <ClInclude Include="CHotICONS.h">
+      <Filter>Header Files\Player data</Filter>
+    </ClInclude>
+    <ClInclude Include="CIngSTATUS.h">
+      <Filter>Header Files\Player data</Filter>
+    </ClInclude>
+    <ClInclude Include="CInventory.h">
+      <Filter>Header Files\Player data</Filter>
+    </ClInclude>
+    <ClInclude Include="CParty.h">
+      <Filter>Header Files\Player data</Filter>
+    </ClInclude>
+    <ClInclude Include="classTHREAD.h">
+      <Filter>Header Files\Threads-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CSqlTHREAD.h">
+      <Filter>Header Files\Threads-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="CThreadLOG.h">
+      <Filter>Header Files\Threads-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="GS_CThreadLOG.h">
+      <Filter>Header Files\Threads-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="GS_CThreadMALL.h">
+      <Filter>Header Files\Threads-DONE</Filter>
+    </ClInclude>
+    <ClInclude Include="GS_CThreadSQL.h">
+      <Filter>Header Files\Threads-DONE</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

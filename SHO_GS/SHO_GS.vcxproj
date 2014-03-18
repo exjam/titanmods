@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release - Test|Win32">
+      <Configuration>Release - Test</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3AC97572-615E-4223-9536-F34DCA7665F2}</ProjectGuid>
+    <RootNamespace>TGameCtrl</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release - Test|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v90</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release - Test|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release - Test|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release - Test|Win32'">$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release - Test|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release - Test|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release - Test|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;TGAMESERVER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;TGAMESERVER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ExpandAttributedSource>false</ExpandAttributedSource>
+      <ProgramDataBaseFileName>$(IntDir)SHOLIB.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release - Test|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;TGAMESERVER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ExpandAttributedSource>false</ExpandAttributedSource>
+      <ProgramDataBaseFileName>$(IntDir)SHOLIB.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Data">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Xml">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CObjEVENT.cpp" />
+    <ClCompile Include="CQuestDATA.cpp" />
+    <ClCompile Include="CStrVAR.cpp" />
+    <ClCompile Include="tagBaseItem.cpp" />
+    <ClCompile Include="CAI_OBJ.cpp" />
+    <ClCompile Include="CGameOBJ.cpp" />
+    <ClCompile Include="CObjAI.cpp" />
+    <ClCompile Include="CObjAVT.cpp" />
+    <ClCompile Include="CObjCHAR.cpp" />
+    <ClCompile Include="CObjITEM.cpp" />
+    <ClCompile Include="CObjMNG.cpp" />
+    <ClCompile Include="CObjMOB.cpp" />
+    <ClCompile Include="CObjNPC.cpp" />
+    <ClCompile Include="CObjSUMMON.cpp" />
+    <ClCompile Include="CObjTARGET.cpp" />
+    <ClCompile Include="CObjVAR.cpp" />
+    <ClCompile Include="CIOCP.cpp" />
+    <ClCompile Include="CIPv4Addr.cpp" />
+    <ClCompile Include="classPACKET.cpp" />
+    <ClCompile Include="iocpSOCKET.cpp" />
+    <ClCompile Include="IOCPSocketSERVER.cpp" />
+    <ClCompile Include="classODBC.cpp" />
+    <ClCompile Include="classSQL.cpp" />
+    <ClCompile Include="CClan.cpp" />
+    <ClCompile Include="CCriticalSection.cpp" />
+    <ClCompile Include="CDXHPC.cpp" />
+    <ClCompile Include="CIndexARRAY.cpp" />
+    <ClCompile Include="CLIB_GameSRV.cpp" />
+    <ClCompile Include="CSyncIdxARRAY.cpp" />
+    <ClCompile Include="CWorldVAR.cpp" />
+    <ClCompile Include="globals.cpp" />
+    <ClCompile Include="STB.cpp" />
+    <ClCompile Include="CIngSTATUS.cpp" />
+    <ClCompile Include="CInventory.cpp" />
+    <ClCompile Include="classUSER.cpp" />
+    <ClCompile Include="CParty.cpp" />
+    <ClCompile Include="CQUEST.cpp" />
+    <ClCompile Include="CUserDATA.cpp" />
+    <ClCompile Include="CUserList.cpp" />
+    <ClCompile Include="CEconomy.cpp" />
+    <ClCompile Include="CRegenPOINT.cpp" />
+    <ClCompile Include="CZoneFILE.cpp" />
+    <ClCompile Include="CZoneLIST.cpp" />
+    <ClCompile Include="CZoneTHREAD.cpp" />
+    <ClCompile Include="classTHREAD.cpp" />
+    <ClCompile Include="CSqlTHREAD.cpp" />
+    <ClCompile Include="CThreadGUILD.cpp" />
+    <ClCompile Include="CThreadLOG.cpp" />
+    <ClCompile Include="GS_CThreadLOG.cpp" />
+    <ClCompile Include="GS_CThreadMALL.cpp" />
+    <ClCompile Include="GS_CThreadSQL.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CObjEVENT.h" />
+    <ClInclude Include="CQuestDATA.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="SHO_GS.h" />
+    <ClInclude Include="tagStructs.h" />
+    <ClInclude Include="CDataPOOL.h" />
+    <ClInclude Include="CDLList.h" />
+    <ClInclude Include="CIndexARRAY.h" />
+    <ClInclude Include="classDLLIST.h" />
+    <ClInclude Include="classHASH.h" />
+    <ClInclude Include="classListBLOCK.h" />
+    <ClInclude Include="classSLLIST.h" />
+    <ClInclude Include="classSLLNODE.h" />
+    <ClInclude Include="CSLList.h" />
+    <ClInclude Include="CSyncIdxARRAY.h" />
+    <ClInclude Include="classUSER.h" />
+    <ClInclude Include="CUserDATA.h" />
+    <ClInclude Include="CUserLIST.h" />
+    <ClInclude Include="CRegenPOINT.h" />
+    <ClInclude Include="CZoneFILE.h" />
+    <ClInclude Include="CZoneLIST.h" />
+    <ClInclude Include="CZoneSECTOR.h" />
+    <ClInclude Include="CZoneTHREAD.h" />
+    <ClInclude Include="CIOCP.h" />
+    <ClInclude Include="CIPv4Addr.h" />
+    <ClInclude Include="classPACKET.h" />
+    <ClInclude Include="CPacket.h" />
+    <ClInclude Include="iocpSOCKET.h" />
+    <ClInclude Include="IOCPSocketSERVER.h" />
+    <ClInclude Include="classODBC.h" />
+    <ClInclude Include="classSQL.h" />
+    <ClInclude Include="CAI_OBJ.h" />
+    <ClInclude Include="CGameOBJ.h" />
+    <ClInclude Include="CObjAI.h" />
+    <ClInclude Include="CObjAVT.h" />
+    <ClInclude Include="CObjCHAR.h" />
+    <ClInclude Include="CObjITEM.h" />
+    <ClInclude Include="CObjMNG.h" />
+    <ClInclude Include="CObjMOB.h" />
+    <ClInclude Include="CObjNPC.h" />
+    <ClInclude Include="CObjSUMMON.h" />
+    <ClInclude Include="CObjTarget.h" />
+    <ClInclude Include="CObjVAR.h" />
+    <ClInclude Include="CCriticalSection.h" />
+    <ClInclude Include="CDXHPC.h" />
+    <ClInclude Include="CEconomy.h" />
+    <ClInclude Include="classEVENT.h" />
+    <ClInclude Include="CLIB_GameSRV.h" />
+    <ClInclude Include="CWorldVAR.h" />
+    <ClInclude Include="STB.h" />
+    <ClInclude Include="CClan.h" />
+    <ClInclude Include="CThreadGUILD.h" />
+    <ClInclude Include="CCharDATA.h" />
+    <ClInclude Include="CHotICONS.h" />
+    <ClInclude Include="CIngSTATUS.h" />
+    <ClInclude Include="CInventory.h" />
+    <ClInclude Include="CParty.h" />
+    <ClInclude Include="classTHREAD.h" />
+    <ClInclude Include="CSqlTHREAD.h" />
+    <ClInclude Include="CThreadLOG.h" />
+    <ClInclude Include="GS_CThreadLOG.h" />
+    <ClInclude Include="GS_CThreadMALL.h" />
+    <ClInclude Include="GS_CThreadSQL.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

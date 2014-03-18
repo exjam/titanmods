@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Bugs">
+      <UniqueIdentifier>{d942e628-e647-4467-a7ed-b9b5d4ef6ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{82af88e8-e961-4d78-97b3-956108c0c7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player\Achievements">
+      <UniqueIdentifier>{1beb1328-cd15-499a-a77f-3770052ed77a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player\Modified Data">
+      <UniqueIdentifier>{41fb679e-d1c3-45da-8ede-24a5dc4379df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\New">
+      <UniqueIdentifier>{1cf6f5de-333b-4262-b5ea-6f1550b3e406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\New\AI">
+      <UniqueIdentifier>{cfa1546f-7a66-479b-be40-1c47821f97cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Shared">
+      <UniqueIdentifier>{a1a7207b-cec0-4ece-9b92-9cd99912de94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\New\PvP">
+      <UniqueIdentifier>{7c1e4c5d-19bc-4600-a4c0-b48129f6331b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Packets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_CGStatsDeath.cpp">
+      <Filter>Source Files\Bugs</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_Drops.cpp">
+      <Filter>Source Files\Bugs</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_EXP.cpp">
+      <Filter>Source Files\Bugs</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_ItemLogQuotes.cpp">
+      <Filter>Source Files\Bugs</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_KillDeathTriggers.cpp">
+      <Filter>Source Files\Bugs</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_Misc.cpp">
+      <Filter>Source Files\Bugs</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_PartyBugs.cpp">
+      <Filter>Source Files\Bugs</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_PickupRange.cpp">
+      <Filter>Source Files\Bugs</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_PK.cpp">
+      <Filter>Source Files\Bugs</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_SafeTown.cpp">
+      <Filter>Source Files\Bugs</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_Shout.cpp">
+      <Filter>Source Files\Bugs</Filter>
+    </ClCompile>
+    <ClCompile Include="Fix_Warps.cpp">
+      <Filter>Source Files\Bugs</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatCommands.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Check_PerFrame.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="User_Disconnect.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Achievement_OnDeath.cpp">
+      <Filter>Source Files\Player\Achievements</Filter>
+    </ClCompile>
+    <ClCompile Include="Achievement_OnTrigger.cpp">
+      <Filter>Source Files\Player\Achievements</Filter>
+    </ClCompile>
+    <ClCompile Include="AchievementCheck.cpp">
+      <Filter>Source Files\Player\Achievements</Filter>
+    </ClCompile>
+    <ClCompile Include="Load_Achievements.cpp">
+      <Filter>Source Files\Player\Achievements</Filter>
+    </ClCompile>
+    <ClCompile Include="Save_Achievements.cpp">
+      <Filter>Source Files\Player\Achievements</Filter>
+    </ClCompile>
+    <ClCompile Include="classUSER_size.cpp">
+      <Filter>Source Files\Player\Modified Data</Filter>
+    </ClCompile>
+    <ClCompile Include="PartyData.cpp">
+      <Filter>Source Files\Player\Modified Data</Filter>
+    </ClCompile>
+    <ClCompile Include="New_ClanContribution.cpp">
+      <Filter>Source Files\New</Filter>
+    </ClCompile>
+    <ClCompile Include="New_CustomShop.cpp">
+      <Filter>Source Files\New</Filter>
+    </ClCompile>
+    <ClCompile Include="New_Filters.cpp">
+      <Filter>Source Files\New</Filter>
+    </ClCompile>
+    <ClCompile Include="New_LogChanges.cpp">
+      <Filter>Source Files\New</Filter>
+    </ClCompile>
+    <ClCompile Include="New_PartyFinder.cpp">
+      <Filter>Source Files\New</Filter>
+    </ClCompile>
+    <ClCompile Include="New_ShopKillProtection.cpp">
+      <Filter>Source Files\New</Filter>
+    </ClCompile>
+    <ClCompile Include="New_VendMessage.cpp">
+      <Filter>Source Files\New</Filter>
+    </ClCompile>
+    <ClCompile Include="New_ZoneCrashChecker.cpp">
+      <Filter>Source Files\New</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomAI.cpp">
+      <Filter>Source Files\New\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptureFlag.cpp">
+      <Filter>Source Files\New\PvP</Filter>
+    </ClCompile>
+    <ClCompile Include="New_Duel.cpp">
+      <Filter>Source Files\New\PvP</Filter>
+    </ClCompile>
+    <ClCompile Include="New_NpcVars.cpp">
+      <Filter>Source Files\New\PvP</Filter>
+    </ClCompile>
+    <ClCompile Include="New_PlayerData.cpp">
+      <Filter>Source Files\New\PvP</Filter>
+    </ClCompile>
+    <ClCompile Include="KothAI.cpp">
+      <Filter>Source Files\New\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="CtfAI.cpp">
+      <Filter>Source Files\New\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="New_SendMessage.cpp">
+      <Filter>Source Files\New</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Shared\AchievementData.hpp">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\AchievementList.hpp">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Code.hpp">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Console.hpp">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\RunOnLoad.hpp">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="AI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PvP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Achievements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SendMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomPartyData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomAvatarData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CrashChecker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Packets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
